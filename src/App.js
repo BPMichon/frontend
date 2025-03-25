@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import VideoPlayer from './VideoPlayer';  // Import VideoPlayer
 import MarkdownEditor from './MarkdownEditor';
-import CharacterCreator from "./CharacterCreator";
+import CharacterCreator from './CC/CharacterCreator';
 import CharacterSheet from "./CharacterSheet";
 
 
