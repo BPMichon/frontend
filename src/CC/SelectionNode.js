@@ -5,12 +5,16 @@ const SelectionNode = ({ node, activeIndex, handleSelectionNodeClick }) => {
     <button
       key={node.label}
       onClick={() => handleSelectionNodeClick()}
-      className={`block w-full py-3 px-4 mb-3 rounded-lg transition-colors duration-200 text-left ${
-        activeIndex === node.index ? 'bg-indigo-700' : 'bg-indigo-500'
-      } hover:bg-indigo-600 text-white font-medium`}
+      className={`w-full flex items-center justify-between px-4 py-2 rounded-lg transition-all duration-200 border ${
+        activeIndex === node.index 
+          ? 'bg-indigo-600 border-indigo-400 shadow-md' 
+          : 'bg-white border-gray-300 hover:border-indigo-500 hover:shadow-sm'
+      } text-gray-900 hover:text-indigo-700 text-sm font-medium`}
     >
-      {node.label}
-      {node.requiredPicks && ` (Choose ${node.requiredPicks})`}
+      <span>{node.label}</span>
+      {node.requiredPicks && (
+        <span className="text-xs text-gray-500">Choose {node.requiredPicks}</span>
+      )}
     </button>
   );
 };
