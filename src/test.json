@@ -1,0 +1,74 @@
+{
+    "label": "Class",
+    "choices": [
+      {
+        "name": "Fighter",
+        "description": "A skilled warrior proficient with various weapons and armor.",
+        "selectableFeature": {
+          "label": "Combat Style",
+          "choices": [
+            { 
+              "name": "Great Weapon Fighting", 
+              "description": "Focuses on using large, two-handed weapons to deal heavy damage." 
+            },
+            { 
+              "name": "Sword and Shield", 
+              "description": "Combines offense and defense by using a sword and shield." 
+            }
+          ]
+        }
+      },
+      {
+        "name": "Rogue",
+        "description": "A sneaky and agile character, skilled in deception and stealth.",
+        "selectableFeature": {
+          "label": "Roguish Archetype",
+          "choices": [
+            { 
+              "name": "Thief", 
+              "description": "A master of stealth and thievery." 
+            },
+            { 
+              "name": "Assassin", 
+              "description": "Skilled in eliminating targets with precision and speed." 
+            }
+          ]
+        }
+      },
+      {
+        "name": "Cleric",
+        "description": "A holy spellcaster who draws power from divine sources.",
+        "selectableFeature": {
+          "label": "Domain",
+          "choices": [
+            { 
+              "name": "Life", 
+              "description": "Focuses on healing and protecting others." 
+            },
+            { 
+              "name": "War", 
+              "description": "Adept at both spellcasting and combat." 
+            }
+          ]
+        }
+      },
+      {
+        "name": "Ranger",
+        "description": "A skilled hunter and tracker, often accompanied by an animal companion.",
+        "selectableFeature": {
+          "label": "Ranger Archetype",
+          "choices": [
+            { 
+              "name": "Beast Master", 
+              "description": "Commands an animal companion to fight by their side." 
+            },
+            { 
+              "name": "Hunter", 
+              "description": "Specializes in tracking and taking down dangerous foes." 
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

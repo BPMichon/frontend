@@ -1,0 +1,51 @@
+.markdown-editor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 10px;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .toolbar button {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  
+  .toolbar button:hover {
+    background: #777;
+  }
+  
+  .editor textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .preview {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
